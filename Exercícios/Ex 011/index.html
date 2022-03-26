@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang=pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Mídias Dinâmicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente 
+        ou dimunua o tamanho do seus navegadores
+
+
+
+     <picture>
+<source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/fotom.png" type="image/png">
+<img src="Imagens/fotog.png" alt="imagemflexivel">
+
+    </picture>
+ </p>
+
+ <h1>Reproduzindo Áudio</h1>
+
+ <p>Vamos Aprender a reproduzir Áudios em HTML5 </p>
+
+ <audio src="midia/teuamor.mp3"controls autoplay></audio>
+ <!--MP3 , WAV , OGG-->
+
+ <audio preload="metadata"  controls loop>
+
+    <source src="midia/teuamor.mp3" type="audio/mpeg">
+
+</audio>
+ 
+</body>
+</html>
